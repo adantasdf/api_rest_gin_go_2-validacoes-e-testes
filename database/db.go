@@ -3,14 +3,14 @@ package database
 import (
 	"log"
 
-	"github.com/guilhermeonrails/api-go-gin/models"
+	"github.com/adantasdf/api-go-gin/models"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )
 
 var (
 	DB  *gorm.DB
-	err error
+	err errors
 )
 
 func ConectaComBancoDeDados() {
